@@ -139,4 +139,5 @@ README.md                            # Main project documentation
 
 ## 📜 License
 This project is licensed under the **MIT License**. See the LICENSE file for details.
+
 This project is created for Fall 2024, University of Calgary.
