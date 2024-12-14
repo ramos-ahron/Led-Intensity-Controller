@@ -51,7 +51,7 @@ src/
 ├── timeDelay.c / timeDelay.h        # Time delay utilities
 ├── UART2.c / UART2.h                # UART communication module
 
-README.md                        # Main project documentation
+README.md                            # Main project documentation
 ```
 
 ---
