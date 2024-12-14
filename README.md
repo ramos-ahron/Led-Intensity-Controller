@@ -35,22 +35,23 @@ This project implements an **LED Intensity Controller** using a microcontroller,
 
 ## 📂 Project Structure
 ```plaintext
-project/
-├── src/
-│   ├── ADC.c / ADC.h                    # ADC module for analog input
-│   ├── clkChange.c / clkChange.h        # Clock configuration module
-│   ├── IOs.c / IOs.h                    # Input/Output initialization and control
-│   ├── main.c                           # Main microcontroller firmware
-│   ├── PWM.c / PWM.h                    # PWM module for LED control
-│   ├── stateMachine.c / stateMachine.h  # Finite State Machine logic
-│   ├── timeDelay.c / timeDelay.h        # Time delay utilities
-│   ├── UART2.c / UART2.h                # UART communication module
-├── logging/
-│   ├── VoltageADCPlotter.py             # Python script for data logging and plotting
-│   ├── Group_26.csv                     # Sample logged data
-│   └── README.pdf                       # Documentation for Python script
-├── ENSF 460 Project 2 Report.pdf    # Detailed project report
-├── README.md                        # Main project documentation
+src/
+├── ADC.c / ADC.h                    # ADC module for analog input
+├── clkChange.c / clkChange.h        # Clock configuration module
+├── IOs.c / IOs.h                    # Input/Output initialization and control
+├── main.c                           # Main microcontroller firmware
+├── PWM.c / PWM.h                    # PWM module for LED control
+├── stateMachine.c / stateMachine.h  # Finite State Machine logic
+├── timeDelay.c / timeDelay.h        # Time delay utilities
+├── UART2.c / UART2.h                # UART communication module
+
+logging/
+├── VoltageADCPlotter.py             # Python script for data logging and plotting
+├── Group_26.csv                     # Sample logged data
+└── README.md                        # Documentation for Python script
+
+ENSF 460 Project 2 Report.pdf    # Detailed project report
+README.md                        # Main project documentation
 ```
 
 ---
