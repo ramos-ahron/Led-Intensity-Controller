@@ -45,7 +45,7 @@ src/
 ├── timeDelay.c / timeDelay.h        # Time delay utilities
 ├── UART2.c / UART2.h                # UART communication module
 
-logging/
+log/
 ├── VoltageADCPlotter.py             # Python script for data logging and plotting
 ├── Group_26.csv                     # Sample logged data
 └── README.md                        # Documentation for Python script
@@ -93,7 +93,7 @@ README.md                        # Main project documentation
    python VoltageADCPlotter.py
    ```
 3. Press PB3 on the hardware to start data transmission.
-4. View the generated CSV file and plots in the `/logging` folder.
+4. View the generated CSV file and plots in the `/log` folder.
 
 ---
 
