@@ -35,7 +35,13 @@ This project implements an **LED Intensity Controller** using a microcontrolle. 
 
 ## 📂 Project Structure
 ```plaintext
+log/
+├── VoltageADCPlotter.py             # Python script for data logging and plotting
+├── Group_26.csv                     # Sample logged data
+└── README.pdf                       # Documentation for Python script
+
 src/
+├── Makefile                         # Build system for microcontroller firmware
 ├── ADC.c / ADC.h                    # ADC module for analog input
 ├── clkChange.c / clkChange.h        # Clock configuration module
 ├── IOs.c / IOs.h                    # Input/Output initialization and control
@@ -45,12 +51,6 @@ src/
 ├── timeDelay.c / timeDelay.h        # Time delay utilities
 ├── UART2.c / UART2.h                # UART communication module
 
-log/
-├── VoltageADCPlotter.py             # Python script for data logging and plotting
-├── Group_26.csv                     # Sample logged data
-└── README.md                        # Documentation for Python script
-
-ENSF 460 Project 2 Report.pdf    # Detailed project report
 README.md                        # Main project documentation
 ```
 
