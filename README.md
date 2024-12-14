@@ -28,7 +28,7 @@ This project implements an **LED Intensity Controller** using a microcontroller,
 - **💻 C Programming**: Firmware development with MPLAB X IDE and XC16 Compiler.
 - **🐍 Python**: Data logging and visualization using:
   - `pyserial` for UART communication.
-  - `pandas` and `matplotlib` for data processing and plotting.
+  - `pandas` and `plotly` for data processing and plotting.
 - **🔗 UART Communication**: Serial data transfer between microcontroller and PC.
 
 ---
@@ -48,7 +48,7 @@ project/
 ├── logging/
 │   ├── VoltageADCPlotter.py             # Python script for data logging and plotting
 │   ├── Group_26.csv                     # Sample logged data
-│   └── README.md                        # Documentation for Python script
+│   └── README.pdf                       # Documentation for Python script
 ├── ENSF 460 Project 2 Report.pdf    # Detailed project report
 ├── README.md                        # Main project documentation
 ```
@@ -68,7 +68,7 @@ project/
 - **MPLAB X IDE** and **XC16 Compiler** for firmware development.
 - **Python 3.x** with the following libraries:
   ```bash
-  pip install pyserial pandas matplotlib
+  pip install pyserial pandas plotly
   ```
 
 ---
@@ -84,7 +84,7 @@ project/
 ### 🐍 Python Data Logger
 1. Open `VoltageADCPlotter.py` and configure the serial port settings:
    ```python
-   PORT = 'COM5'  # Adjust to your system
+   PORT = 'COM5'
    BAUD_RATE = 4800
    ```
 2. Run the script:
@@ -138,3 +138,4 @@ project/
 
 ## 📜 License
 This project is licensed under the **MIT License**. See the LICENSE file for details.
+This project is created for Fall 2024, University of Calgary.
