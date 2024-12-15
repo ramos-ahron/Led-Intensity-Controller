@@ -1,6 +1,6 @@
 # 🌟 LED Intensity Controller
 
-This project implements an **LED Intensity Controller** using a microcontrolle. It showcases real-time control of LED brightness using Pulse Width Modulation (PWM), push button inputs, and potentiometer adjustments. Additionally, it features UART communication for logging data to a PC, with Python scripts for data visualization.
+This project implements an **LED Intensity Controller** using a microcontroller. It showcases real-time control of LED brightness using Pulse Width Modulation (PWM), push button inputs, and potentiometer adjustments. Additionally, it features UART communication for logging data to a PC, with Python scripts for data visualization.
 
 ---
 
